@@ -1,16 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: cmx
-  Date: 2017/8/30
-  Time: 18:54
+  Date: 2017/8/31
+  Time: 16:46
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>错误信息友好提示页面</title>
+    <title>Title</title>
 </head>
 <body>
-            对不起，出错了，请联系管理员解决！
-   </body>
+头部
+</body>
 </html>

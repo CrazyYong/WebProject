@@ -8,8 +8,11 @@
 <%@ page language="java" import="java.util.*" errorPage="error.jsp" pageEncoding="UTF-8"%>
 <html>
   <head>
-    <%= new java.util.Date() %>
+    <%--使用<jsp:forward>标签跳转到forwarddemo02.jsp
+    <jsp:forward page="/error.jsp"/>--%>
 
+
+      <%= new java.util.Date() %>
     <%
            int sum=0;//声明变量
 
@@ -18,11 +21,12 @@
                sum+=i;
            }
            out.println("<h1>Sum="+sum+"</h1>");
-       %>
+    %>
     <title>第一个Web项目</title>
   </head>
   <body>
-
-  Hello World
+  <jsp:include page="/head.jsp"/>
+ 网页主体
+  <jsp:include page="/foot.jsp"/>
   </body>
 </html>
